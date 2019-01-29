@@ -76,7 +76,7 @@ namespace TDD_ROT13
         [Fact]
         public void ShouldShiftDigitsAroundDigitsEnd()
         {
-            RotEncryptor("9", 4).Should().Be("3");
+            RotEncryptor("9", 14).Should().Be("3");
         }
 
         [Fact]
