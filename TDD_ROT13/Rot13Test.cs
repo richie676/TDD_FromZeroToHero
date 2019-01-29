@@ -21,11 +21,6 @@ namespace TDD_ROT13
         public void ShouldShiftCharacters()
         {
             Rot13Encryptor("A").Should().Be("N");
-        }
-
-        [Fact]
-        public void ShouldShiftSingleCharacter()
-        {
             Rot13Encryptor("B").Should().Be("O");
         }
 
@@ -48,16 +43,22 @@ namespace TDD_ROT13
         }
 
         [Fact]
+
         public void ShouldOnlyConvertLetters()
         {
             Rot13Encryptor("Hello, World").Should().Be("URYYB, JBEYQ");
         }
-        
+
+        [Fact]
+        public void ShouldConvertUmlautCharactors()
+        {
+            Rot13Encryptor("Großraumbüroklimagerätestörung").Should().Be("TEBFFENHZOHREBXYVZNTRENRGRFGBREHAT");
+        }
+
         private string Rot13Encryptor(string input)
         {
             return new Rot13Encryptor().Encrypt(input);
         }
-
 
     }
 }
