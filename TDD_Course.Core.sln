@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDD_Course.Core.Tests", "TD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD_GarbageParser", "TDD_GarbageParser\TDD_GarbageParser.csproj", "{1E57516F-EE12-4E2D-8402-C86E52E96533}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD_ROT13", "TDD_ROT13\TDD_ROT13.csproj", "{9073CCEC-3128-4EAB-943B-6BC63C11A8A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1E57516F-EE12-4E2D-8402-C86E52E96533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E57516F-EE12-4E2D-8402-C86E52E96533}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E57516F-EE12-4E2D-8402-C86E52E96533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9073CCEC-3128-4EAB-943B-6BC63C11A8A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9073CCEC-3128-4EAB-943B-6BC63C11A8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9073CCEC-3128-4EAB-943B-6BC63C11A8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9073CCEC-3128-4EAB-943B-6BC63C11A8A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
